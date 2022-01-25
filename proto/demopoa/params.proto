@@ -1,0 +1,12 @@
+syntax = "proto3";
+package RaspiRepo.demopoa.demopoa;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/RaspiRepo/demopoa/x/demopoa/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
